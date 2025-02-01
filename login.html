@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylelogin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <title>Login</title>
+</head>
+
+<body style="background-image: url(/imagelogin/loginbg-b213574a.png);;" id="body">
+    <div class="backnen" id="backnen"></div>
+
+
+
+
+    <div class="container">
+        <div class="containerlogin">
+
+            <div class="image" id="acimage" style="background-image: url(/imagelogin//loginbanner-e591ea61.png);">
+                <div class="click">
+                    <button id="light-dark" class="icon-sun-dark" onclick=" toggleColor()"><i
+                            class="fa-solid fa-moon"></i></button>
+                    <button id="light-sun" class="icon-sun-dark" onclick=" toggleColor()"><i
+                            class="fa-solid fa-sun"></i></button>
+                </div>
+            </div>
+
+            <div class="login" id="aelogin">
+                <h3 id="loginh1" class="loginchung">Đăng Nhập Để Tiếp Tục</h3>
+                <p id="loginh2" class="loginchung">Đăng nhập để bạn có thể thuận tiện trong việc mua hàng</p>
+                <div class="chaiconemail" id="chaiconemail">
+                    <i class="fa-solid fa-envelope" class="iconemail" id="fa-envelope"></i>
+                    <input type="text" placeholder="Địa chỉ Email" class="email" id="email">
+                </div><br>
+                <div class="chaiconlock" id="chaiconlock">
+                    <i class="fa-solid fa-lock" class="iconemail" id="fa-lock"></i>
+                    <input type="password" placeholder="Mật khẩu" class="pass" id="pass">
+                </div><br>
+                <button type="submit" class="dangnhap" id="dangnhap" onclick="dangnhap()">Đăng Nhập</button>
+                <p class="hoac">- hoặc -</p>
+                <button class="dangnhapgg"><img src="https://www.monfansubvn.com/assets/gglogin_ico-464e961b.svg"
+                        class="hinhgg" onclick="dangnhapgg()">Đăng nhập bằng google</button>
+                <div class="dangnhapp">
+                    <p style="color: gray;"><a href="" class="taotaikhoan">Tạo tài khoản mới</a> - <a
+                            href="https://www.facebook.com/minute2701/" class="taotaikhoan">Quên mật khẩu</a></p>
+                </div>
+                <div class="dieukhoan">
+                    <p style="color: gray;">Khi đăng nhập hoặc tạo tài khoản là bạn đã đồng ý với <a
+                            href="https://www.facebook.com/minute2701/" class="taotaikhoan">Chính sách bảo mật của chúng
+                            tôi</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+<script>
+
+</script>
+
+</html>
